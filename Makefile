@@ -5,7 +5,8 @@ brain-games:
 	    poetry run brain-games
 
 
-publish: poetry publish --dry-run
+publish: 
+	poetry publish --dry-run
 
 build:
 	poetry build
